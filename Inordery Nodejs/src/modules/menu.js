@@ -7,11 +7,7 @@ const menu = mongoose.model('menu',{
         required : true,
         trim :true
     },
-    // _id : {
-    //     type : Number,
-    //     required : true,
-    //     trim :true
-    // },
+    
     category:{
         type: String,
         required : true,
